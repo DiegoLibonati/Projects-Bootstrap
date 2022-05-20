@@ -1,0 +1,15 @@
+#sectionOne{
+    background: #0A193D;
+    padding: 80px;
+}
+
+#sectionOne-row, h3, p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#sectionOne-row2, img{
+    max-width: 100%;
+    height: 250px;
+}
