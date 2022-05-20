@@ -1,15 +1,42 @@
-#sectionOne{
-    background: #0A193D;
-    padding: 80px;
+html,
+body{
+    height: 100%;
+    font-size: 1rem;
 }
 
-#sectionOne-row, h3, p{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
+#Home{
+    background:#0A193D;
+    padding: 40px;
 }
 
-#sectionOne-row2, img{
+#services{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#home-img, img{
+    height: auto;
     max-width: 100%;
-    height: 250px;
+}
+
+@media  only screen and (min-width:768px) {
+    #Home{
+        padding: 60px;
+    }
+
+    #services{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media  only screen and (min-width:1024px) {
+    #Home{
+        padding: 80px;
+    }
+
+    #services{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }

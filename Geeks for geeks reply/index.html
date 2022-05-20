@@ -14,64 +14,81 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-white" style="height: 100px;">
 
-        <div class="container-fluid p-0">
-
-                <a class="navbar-brand ms-2" href="#" style="font-size: 25px; color:#0A193D;">Geeks for Geeks</a>
-                <button class="navbar-toggler custom-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto mb-2 mb-lg-0 me-5 w-100 d-flex align-items-center justify-content-center bg-white">
-                    
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Products</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact us</a>
-                    </li>
-
-                </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">GFG</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+              <a class="nav-link" href="#services">Services</a>
             </div>
+          </div>
         </div>
-      </nav>
+    </nav>
 
-      <section>
+    <section id="Home" class="mb-5"> 
 
-        <div class="container-fluid" id="sectionOne">
+        <div class="container-fluid">
 
-            <div class="row">
+            <div class="row align-items-center justify-content-center">
 
-                <div class="col-md-6 d-flex flex-column align-items-center justify-content-between" id="sectionOne-row">
-                    <h4 class="text-white">BEST PROFESSIONAL WEBSITE DESIGN SOFTWARE DEVELOPMENT COMPANY</h4>
-                    <p class="text-white">The fastest way to grow your business with the leader in Technology</p>
-                    <button type="button" class="btn btn-sm p-2 bg-white">Contact Us</button>
+                <div class="col-md-9 text-center text-white pb-5 pb-md-0">
+                    <h3 class="">BEST PROFESSIONAL WEBSITE DESIGN SOFTWARE DEVELOPMENT COMPANY</h3>
+                    <p class="pt-2">The fastest way to grow your business with the leader in Technology</p>
+                    <button class="btn btn-dark text-black bg-white p-2">Contact Us</button>
                 </div>
     
-                <div class="col-md-6" id="sectionOne-row2">
-                    <img src="templates/gfg.png" class="img-responsive mx-auto d-block">
+                <div class="col-md-3" id="home-img">
+                    <img src="templates/gfg.png" alt="gfg" class="img-responsive mx-auto d-block">
                 </div>
     
             </div>
 
         </div>
 
-      </section>
+    </section>
 
+    <section id="services" class="mb-5">
+
+        <div class="container-fluid">
+
+            <h2 class="text-center mb-5 h1">SERVICES</h2>
+
+            <div class="row text-center">
+
+                <div class="col-lg-3 mx-auto border p-3">
+                    <img src="templates/gfg.png" alt="gfg" class="img-responsive mx-auto d-block">
+                    <h3 class="m-0 pt-3">Website Design</h3>
+                    <p class="m-0 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, laudantium!</p>
+                </div>
+
+                <div class="col-lg-3 mx-auto border mt-3 mt-lg-0 p-3">
+                    <img src="templates/gfg.png" alt="gfg" class="img-responsive mx-auto d-block">
+                    <h3 class="m-0 pt-3">Website Design</h3>
+                    <p class="m-0 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, laudantium!</p>
+                </div>
+
+                <div class="col-lg-3 mx-auto border mt-3 mt-lg-0 p-3">
+                    <img src="templates/gfg.png" alt="gfg" class="img-responsive mx-auto d-block">
+                    <h3 class="m-0 pt-3">Website Design</h3>
+                    <p class="m-0 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, laudantium!</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="aboutme">
+         
+        <div class="container">
+            Aboutme proximamente
+        </div>
+
+    </section>
 </body>
 </html>
