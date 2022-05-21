@@ -1,0 +1,99 @@
+html,
+body{
+    height: 100%;
+    font-size: 1rem;
+}
+
+#Home{
+    background:#3B62E1;
+    padding: 40px;
+}
+
+#services{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#home-img, img{
+    height: auto;
+    max-width: 100%;
+}
+
+#whyuscontainer{
+    background:#3B62E1;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#ourproductscontainer{
+    background:#3B62E1;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#footer{
+    background:#3B62E1;
+    padding: 40px;
+}
+
+@media  only screen and (min-width:768px) {
+    #Home{
+        padding: 60px;
+    }
+
+    #services{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #aboutme{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    #products{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    #whyuscontainer{
+        margin-bottom: 0;
+    }
+
+    
+    #ourproductscontainer{
+        margin-top: 0;
+    }
+
+    #footer{
+        padding: 60px;
+    }
+}
+
+@media  only screen and (min-width:1024px) {
+    #Home{
+        padding: 80px;
+    }
+
+    #services{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #aboutme{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+
+    #products{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    #footer{
+        padding: 80px;
+    }
+}
