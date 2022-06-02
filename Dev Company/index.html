@@ -10,186 +10,167 @@
 
     <link href="estilos.css" rel="stylesheet" type="text/css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
     <title>Dev Company</title>
+
 </head>
 <body>
 
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid containerNav">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-          <a class="navbar-brand" href="#">DEV COMPANY</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <a class="navbar-brand m-0 p-0" href="#"><img class="imgNavStyle" src="templates/logo.png" alt="logo dev compnay"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon display-5"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#Home">Home</a>
-              <a class="nav-link" href="#services">Services</a>
-              <a class="nav-link" href="#aboutme">About me</a>
-              <a class="nav-link" href="#products">Products</a>
-              <a class="nav-link" href="#gettouch">Touch Us</a>
-            </div>
+
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutus">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#products">Products</a>
+              </li>
+            </ul>
           </div>
-        </div>
-    </nav>
-
-    <section id="Home" class="mb-5"> 
-
-        <div class="container-fluid">
-
-            <div class="row align-items-center justify-content-center">
-
-                <div class="col-md-6 text-center text-white pb-5 pb-md-0">
-                    <h3 class="">BEST PROFESSIONAL WEBSITE DESIGN SOFTWARE DEVELOPMENT COMPANY</h3>
-                    <p class="pt-2">The fastest way to grow your business with the leader in Technology</p>
-                    <button class="btn btn-dark text-black bg-white p-2">Contact Us</button>
-                </div>
-    
-                <div class="col-md-5" id="home-img">
-                    <img src="https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="gfg" class="img-responsive mx-auto d-block rounded">
-                </div>
-    
-            </div>
 
         </div>
+      </nav>
+
+    <section class="container-fluid homeSection d-flex align-items-center justify-content-center" id="home">
+
+      <div class="row flex-column flex-lg-row align-items-center justify-content-center">
+        
+        <div class="col col-md-12 col-lg-6 mb-5 homeRowOne text-center">
+          <h2 class="text-white mb-5">BEST PROFESSIONAL WEBSITE DESIGN SOFTWARE DEVELOPMENT COMPANY</h2>
+          <p class="text-white mb-5">The fastest way to grow your business with the leader in Technology</p>
+          <button class="btn btn-warning">Contact Us</button>
+        </div>
+
+        <div class="col col-md-6 col-lg-5 homeRowTwo">
+          <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="dev company img" class="img-responsive mx-auto d-block rounded">
+        </div>
+
+      </div>
 
     </section>
 
-    <section id="services" class="mb-5 border-bottom">
+    <section class="container-fluid servicesSection d-flex flex-column justify-content-evenly" id="services">
 
-        <div class="container-fluid">
+      <div class="container sectionTitle">
+        <h2>SERVICES</h2>
+      </div>
 
-            <h2 class="text-center mb-5 h1">SERVICES</h2>
+      <div class="row flex-column justify-content-center align-items-center flex-lg-row">
 
-            <div class="row text-center mb-5">
-
-                <div class="col-lg-3 mx-auto border p-3">
-                    <img src="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="gfg" class="img-responsive mx-auto d-block rounded">
-                    <h3 class="m-0 pt-3">SECURITY</h3>
-                    <p class="m-0 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, laudantium!</p>
-                </div>
-
-                <div class="col-lg-3 mx-auto border mt-3 mt-lg-0 p-3">
-                    <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="gfg" class="img-responsive mx-auto d-block rounded">
-                    <h3 class="m-0 pt-3">WEBSITE DESIGN</h3>
-                    <p class="m-0 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, laudantium!</p>
-                </div>
-
-                <div class="col-lg-3 mx-auto border mt-3 mt-lg-0 p-3">
-                    <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="gfg" class="img-responsive mx-auto d-block rounded">
-                    <h3 class="m-0 pt-3">SEO MANAGE</h3>
-                    <p class="m-0 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, laudantium!</p>
-                </div>
-
-            </div>
+        <div class="col-10 col-md-8 col-lg-3 d-flex flex-column align-items-center justify-content-evenly cardBoxServices text-center mb-5 mb-lg-0 mx-auto text-white">
+          <img src="https://media.istockphoto.com/photos/cybersecurity-digital-technology-security-picture-id1310129244?b=1&k=20&m=1310129244&s=170667a&w=0&h=FxAuF_7dvRlrIcgCGdIG8p354LtMXQbZAwZljBB-U_Y=" alt="dev company img" class="img-responsive d-block mx-auto rounded">
+          <h3>SECURITY</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, optio?</p>
         </div>
+
+        <div class="col-10 col-md-8 col-lg-3 d-flex flex-column align-items-center justify-content-evenly cardBoxServices text-center mb-5 mb-lg-0 mx-auto text-white">
+          <img src="https://media.istockphoto.com/photos/web-design-desktop-picture-id1305999733?b=1&k=20&m=1305999733&s=170667a&w=0&h=3DeafNR4TJ7eSqHvBFkVRwNbnBrZxpj6RlaqbeiIAfs=" alt="dev company img" class="img-responsive d-block mx-auto rounded">
+          <h3>WEBSITE DESIGN</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, optio?</p>
+        </div>
+
+        <div class="col-10 col-md-8 col-lg-3 d-flex flex-column align-items-center justify-content-evenly cardBoxServices text-center mb-5 mb-lg-0 mx-auto text-white">
+          <img src="https://media.istockphoto.com/photos/seo-concept-with-alphabet-blocks-picture-id537893294?b=1&k=20&m=537893294&s=170667a&w=0&h=ebYFMiqiVLRGCsvttaPbmd_kIfwGVyZ2bpjSiolQGxc=" alt="dev company img" class="img-responsive d-block mx-auto rounded">
+          <h3>SEO MANAGE</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, optio?</p>
+        </div>
+
+      </div>
 
     </section>
 
-    <section id="aboutme" class="mb-5 border-bottom">
-         
-        <div class="container-fluid">
-            
-            <h2 class="text-center mb-5 h1">ABOUT US</h2>
+    <section class="container-fluid aboutusSection d-flex flex-column justify-content-evenly" id="aboutus">
 
-            <div class="row align-items-center justify-content-center mb-5">
+      <div class="container sectionTitle text-white">
+        <h2>ABOUT US</h2>
+      </div>
 
-                <div class="col-md-6" id="whyuscontainer">
-                    <h3 class="text-center text-white">Why Us</h3>
+      <div class="row h-75 align-items-center justify-content-evenly">
 
-                    <ul>
-                        <li class="pt-3 text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, asperiores.</li>
-                        <li class="pt-3 text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, asperiores.</li>
-                        <li class="pt-3 text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, asperiores.</li>
-                        <li class="pt-3 text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, asperiores.</li>
-                    </ul>
-                </div>
-
-                <div class="col-md-6">
-                    <img src="https://media.istockphoto.com/vectors/about-us-flat-design-style-colorful-illustration-vector-id1086341762?k=20&m=1086341762&s=612x612&w=0&h=0IC9wexJFHfX_pPBFCgnrVC0--aSDg3XKlJjNJmY9E0=" alt="gfg" class="img-responsive rounded mx-auto d-block rounded">
-                </div>
-
-            </div>
-
+        <div class="col-12 col-lg-5 text-center text-white h-lg-100 d-flex flex-column justify-content-evenly">
+          <h3 class="display-2 mb-3">Why Us</h3>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white text-start mx-auto m-lg-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quisquam.</li>
+            <li class="list-group-item text-white text-start mx-auto m-lg-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quisquam.</li>
+            <li class="list-group-item text-white text-start mx-auto m-lg-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quisquam.</li>
+            <li class="list-group-item text-white text-start mx-auto m-lg-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quisquam.</li>
+          </ul>
         </div>
+
+        <div class="col-12 col-lg-4">
+          <img src="https://images.pexels.com/photos/1560932/pexels-photo-1560932.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="img dev company" class="img-responsive d-block mx-auto rounded imgAbout">
+        </div>
+
+      </div>
 
     </section>
 
-    <section id="products" class="mb-5 border-bottom">
-         
-        <div class="container-fluid">
-            
-            <h2 class="text-center mb-5 h1">OUR PRODUCTS</h2>
+    <section class="container-fluid productsSection d-flex flex-column justify-content-evenly" id="products">
 
-            <div class="row align-items-center justify-content-center mb-5">
+      <div class="container sectionTitle text-center">
+        <h2>OUR PRODUCTS</h2>
+      </div>
 
-                <div class="col-md-6">
-                    <img src="https://www.lavoz.com.ar/resizer/n5tNijI0uPCEVytP5FrXfnN2isk=/1023x682/smart/cloudfront-us-east-1.images.arcpublishing.com/grupoclarin/R73BM64R4VHVJOYUN5UAXG3PQY.jpg" alt="gfg" class="img-responsive rounded mx-auto d-block rounded">
-                </div>
+      <div class="row h-75 align-items-center justify-content-evenly">
 
-                <div class="col-md-6" id="ourproductscontainer">
-                    <h3 class="text-center text-white">Product List</h3>
-
-                    <ul>
-                        <li class="pt-3 text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, asperiores.</li>
-                        <li class="pt-3 text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, asperiores.</li>
-                        <li class="pt-3 text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, asperiores.</li>
-                        <li class="pt-3 text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, asperiores.</li>
-                    </ul>
-                </div>
-
-            </div>
-
+        <div class="col-12 col-lg-4 mb-2 mb-lg-0">
+          <img src="https://images.unsplash.com/photo-1491933382434-500287f9b54b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="img dev company" class="img-responsive d-block mx-auto rounded imgProduct">
         </div>
+
+        <div class="col-12 col-lg-5 text-center h-lg-100 d-flex flex-column justify-content-evenly">
+          <h3 class="display-2 mb-3">Product List</h3>
+          <ul class="list-group list-group-numbered">
+            <li class="list-group-item text-white text-start mx-auto m-lg-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quisquam.</li>
+            <li class="list-group-item text-white text-start mx-auto m-lg-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quisquam.</li>
+            <li class="list-group-item text-white text-start mx-auto m-lg-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quisquam.</li>
+            <li class="list-group-item text-white text-start mx-auto m-lg-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quisquam.</li>
+          </ul>
+        </div>
+
+      </div>
 
     </section>
 
-    <section id="gettouch">
-         
-        <div class="container-fluid">
-            
-            <h2 class="text-center mb-5 h1">GET IN TOUCH</h2>
+    <footer class="container-fluid footerSection">
 
-            <div class="row align-items-center justify-content-center mb-5">
+      <div class="row h-100 align-items-center flex-column justify-content-evenly flex-lg-row">
 
-                <div class="col-md-6">
-                    <img src="https://images.pexels.com/photos/859264/pexels-photo-859264.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="gfg" class="img-responsive rounded mx-auto d-block rounded">
-                </div>
-
-            </div>
-
+        <div class="col-12 col-md-8 col-lg-4 text-center rowFooterConfig">
+          <h2>Our Website</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quod voluptatem corporis veniam magni ipsam assumenda culpa unde reprehenderit laudantium?</p>
         </div>
 
-    </section>
-
-    <footer id="footer" class="mb-5"> 
-
-        <div class="container-fluid">
-
-            <div class="row align-items-center justify-content-center text-white text-center">
-
-                <div class="col-md-4 mt-3">
-                    <h3>Our Website</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quod voluptatem corporis veniam magni ipsam assumenda culpa unde reprehenderit laudantium?</p>
-                </div>
-
-                <div class="col-md-4 mt-3">
-                    <h3>Contact Us</h3>
-                    <p>Call Us- 1800-121-6532</p>
-                    <p>Email Us- support@xyz.com</p>
-                </div>
-
-                <div class="col-md-4 mt-3">
-                    <h3>Suscribe To Newsletter</h3>
-                    <input class="w-100" placeholder="Enter your email"></input>
-                    <p>We'll never share your email with anyone else.</p>
-                    <button type="button" class="btn btn-dark text-white">Submit</button>
-                </div>
-            </div>
-
+        <div class="col-12 col-md-8 col-lg-4 text-center rowFooterConfig">
+          <h2>Contact Us</h2>
+          <p>Call Us- 1800-121-6532</p>
+          <p>Email Us- support@xyz.com</p>
         </div>
+
+        <div class="col-12 col-md-8 col-lg-4 text-center rowFooterConfig">
+          <h2>Suscribe To Newsletter</h2>
+          <input type="email" class="btn btn-warning mb-3" placeholder="Enter your email">
+          <p>We´ll never share your email with anyone else.</p>
+          <button type="button" class="btn btn-warning">Send</button>
+        </div>
+
+      </div>
 
     </footer>
-
 </body>
 </html>
