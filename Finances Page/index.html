@@ -20,7 +20,7 @@
 <body>
 
   <header id="navbar">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light p-2 bg-white fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="./templates/logoe.png" alt="logo company" id="navbarImg"></a>
         <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,13 +29,13 @@
         <div class="collapse navbar-collapse justify-content-center p-3 p-lg-0" id="navbarNav">
           <ul class="navbar-nav h5">
             <li class="nav-item">
-              <a class="nav-link text-primary active" aria-current="page" href="#">Home</a>
+              <a class="nav-link text-primary active h3" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-primary" href="#">Features</a>
+              <a class="nav-link text-primary h3" href="#">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-primary" href="#">Pricing</a>
+              <a class="nav-link text-primary h3" href="#">Pricing</a>
             </li>
           </ul>
         </div>
@@ -45,25 +45,137 @@
     
 
   <main>
-    <section>
-      <article class="bg-image p-5 text-center shadow-1-strong mb-5 text-white d-flex justify-content-center align-items-center" id="homeSection">
+    <section id="homeSection">
+      <article class="bg-image text-center shadow-1-strong mb-5 text-white d-flex justify-content-center align-items-center">
 
         <div class="row justify-content-center align-items-center">
 
-          <div class="col-12 col-lg-3 mb-5 mb-lg-0">
+          <div class="col-12 col-lg-3 mb-5 mb-md-0 mb-lg-0">
             <h2 class="h1 mb-5">A way to track your <span class="text-primary">finances</span></h2>
             <p class="h3 mb-5">The easy way to stay on top of your finances, no matter where you are</p>
             <a href="#" class="btn">Download now</a>
           </div>
 
-          <div class="col-12 col-lg-6">
-            <img src="./templates/Celular.png" alt="celular home">
+          <div class="col-12 col-lg-6 ms-lg-5">
+            <img src="./templates/Celular.png" alt="celular home" class="img-fluid">
+          </div>
+
+        </div>
+      </article>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,32L48,42.7C96,53,192,75,288,74.7C384,75,480,53,576,64C672,75,768,117,864,154.7C960,192,1056,224,1152,213.3C1248,203,1344,149,1392,122.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
+
+    <section class="container mt-5 mb-5 mt-lg-0">
+
+      <article class="row flex-column justify-content-center align-items-center flex-lg-row">
+
+        <div class="col-6 col-md-6 col-lg-5 justify-content-center align-items-center text-center p-lg-5">
+          <h2 class="h1">Your finances in <span class="text-primary">one place</span></h2>
+          <p class="h3">From checking accounts to savings, credit cards, and more, personal finances can be tricky. Blick's mission is to make it simple to manage everything from one place.</p>
+        </div>
+
+        <div class="col-6 col-md-6 col-lg-7 p-lg-5 text-center">
+          <img src="./templates/Celular.png" alt="celular home" class="img-fluid w-75">
+        </div>
+
+      </article>
+
+      <article class="row flex-column justify-content-center align-items-center flex-lg-row mt-5 bg-light">
+
+        <div class="col-6 col-md-6 col-lg-5 justify-content-center align-items-center text-center p-lg-5 order-lg-2">
+          <h2 class="h1">Your finances <span class="text-primary">anywhere</span></h2>
+          <p class="h3">We're dedicated into making banking truly mobile. No matter where you are, or what device you're using, we guarantee Blick will give you a snapshot into your financial health anytime, anywhere.</p>
+        </div>
+
+        <div class="col-6 col-md-6 col-lg-7 p-lg-5 order-lg-1 text-center">
+          <img src="./templates/Celular.png" alt="celular home" class="img-fluid w-75">
+        </div>
+
+      </article>
+
+      <article class="row flex-column justify-content-center align-items-center flex-lg-row mt-5">
+
+        <div class="col-6 col-md-6 col-lg-5 justify-content-center align-items-center text-center p-lg-5">
+          <h2 class="h1">Easily <span class="text-primary">track</span> expense data</h2>
+          <p class="h3">Unlike other finance apps, we're all about categorizing your financial data into meaningful and easily comprehensible charts and tables. We won't leave you guessing. </p>
+        </div>
+
+        <div class="col-6 col-md-6 col-lg-7 p-lg-5 text-center">
+          <img src="./templates/Celular.png" alt="celular home" class="img-fluid w-75">
+        </div>
+
+      </article>
+
+    </section>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000" fill-opacity="1" d="M0,224L48,224C96,224,192,224,288,208C384,192,480,160,576,176C672,192,768,256,864,250.7C960,245,1056,171,1152,149.3C1248,128,1344,160,1392,176L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+
+    <section class="bg-dark">
+
+      <article class="container-fluid text-center mb-5 p-1">
+
+        <p class="h2 text-primary">Reviews</p>
+        <h2 class="h1 text-white">What do they say?</h2>
+
+      </article>
+
+      <article class="row justify-content-center flex-lg-row">
+
+        <div class="col-10 row justify-content-center align-items-start col-lg-5 flex-lg-row mb-5 mt-lg-5 p-lg-5">
+          
+          <div class="col-10 col-lg-3">
+            <img src="./templates/Celular.png" class="img-fluid mb-5 mx-auto d-block w-75">
+          </div>
+
+          <div class="col-10 col-lg-8 p-1">
+            <h3 class="h2 text-primary mb-5">Easy to use</h3>
+            <p class="h3 text-white mb-5">I've used all of the personal finance apps on the market, and found that most have a hard time syncing my various bank accounts and cards real-time, leaving me guessing sometimes for days. Blick was a pleasant surprise! The team has really worked hard to ensure instant syncronization with most of the mainstream banks and lenders. Impressed! </p>
+            <p class="h3 text-white mb-5">- Anna Jenkins </p>
+          </div>
+
+        </div>
+
+        <div class="col-10 row justify-content-center align-items-start col-lg-5 flex-lg-row mt-lg-5 p-lg-5">
+          
+          <div class="col-10 col-lg-3">
+            <img src="./templates/Celular.png" class="img-fluid mb-5 mx-auto d-block w-75">
+          </div>
+
+          <div class="col-10 col-lg-8 p-1">
+            <h3 class="h2 text-primary mb-5">Amazed by great results!</h3>
+            <p class="h3 text-white mb-5">I rely on my budgeting spreadsheet since it helps me organize my spending data into meaningful charts and tables. That's why I've been comprehensive about switching to a personal finance app, as I found that the data presentation was usually lacking at best. Lo and behold, Blick was the only app that made the cut!</p>
+            <p class="h3 text-white mb-5">- Danny Lores </p>
           </div>
 
         </div>
 
       </article>
+
     </section>
+
+    <section class="bg-secondary">
+    
+      <article class="row justify-content-center align-items-center">
+
+        <div class="col-3 mx-auto m-5">
+          <h2 class=" fs-2 text-primary text-center p-2 me-1">15</h2>
+          <p class="m-0 h4 text-primary text-center">Team members</p>
+        </div>
+
+        <div class="col-3 mx-auto m-5">
+          <h2 class=" fs-2 text-primary text-center p-2 me-1">230k</h2>
+          <p class="m-0 h4 text-primary text-center">Happy users</p>
+        </div>
+
+        <div class="col-3 mx-auto m-5">
+          <h2 class=" fs-2 text-primary text-center p-2 me-1">340+</h2>
+          <p class="m-0 h4 text-primary text-center">Supported lenders</p>
+        </div>
+
+      </article>
+
+    </section>
+
   </main>
 
 </body>
