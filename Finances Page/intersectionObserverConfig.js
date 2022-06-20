@@ -7,8 +7,6 @@ const loadContent = (entrys, observer) => {
 
         if (entry.isIntersecting){
             entry.target.classList.add("showSection");
-        } else {
-            entry.target.classList.remove("showSection");
         }
 
     });
